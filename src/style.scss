@@ -1,0 +1,11 @@
+@import './assets/scss/base/variable';
+// Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+// BootstrapVue and its default variables
+@import '../node_modules/bootstrap-vue/src/index.scss';
+// vue-select input
+@import "vue-select/src/scss/vue-select.scss";
+
+@import './assets/scss/custom.scss';
+
+@import '~toastr/toastr.scss';

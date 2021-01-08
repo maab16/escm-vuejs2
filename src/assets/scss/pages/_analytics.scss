@@ -1,0 +1,149 @@
+.analytics-reports {
+  padding-top: 30px;
+
+  @media (max-width: 575px) {
+    padding-top: 30px;
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+.analytics-orders {
+  .analytics-list {
+    thead {
+      th {
+        text-align: left;
+        @media (max-width: 575px) {
+          padding:10px 5px;
+        }
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+
+    td {
+      text-align: left;
+      @media (max-width: 575px) {
+        padding:10px 5px;
+      }
+      &:last-child {
+        padding: 0;
+      }
+
+      .status-icons {
+        p {
+          position: relative;
+          padding-left:10px;
+
+          .status-box {
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            margin-left: -10px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.popular-products {
+  .card-header {
+    p {
+      .frequently {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: $gray-300;
+        padding: 5px 9px 2px 9px;
+        text-align: center;
+        margin-left: 6px;
+      }
+    }
+  }
+
+  .card-body {
+    padding: 0px 0px 0px 0px;
+
+    .list-group {
+      overflow-y: auto;
+      height: 340px;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: $gray-100;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: $gray-300;
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background: $gray-400;
+      }
+
+      .list-group-item {
+        padding: 15px;
+        border: none;
+        border-bottom: 1px solid $gray-300;
+
+        &:nth-child(even) {
+          background-color: $gray-300;
+        }
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+.tooltip.b-tooltip {
+  font-size: 10px;
+
+  .tooltip-inner {
+    font-size: 10px;
+  }
+}
+
+.order-chart {
+  .card {
+    .bar-chart {
+      div {
+        max-width: 100%;
+        max-height: 320px;
+    
+        canvas {
+          height: 320px !important;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+.line-chart {
+  #line-chart{
+    height: 300px !important;
+    display: -webkit-box !important;
+    width:100% !important;
+  }
+}
+
+.status-order .btn-group .btn {
+  padding: 0;
+  font-size: 12px;
+}

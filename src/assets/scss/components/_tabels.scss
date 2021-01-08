@@ -1,0 +1,188 @@
+.recent-orders {
+  margin: 0;
+  &.table.b-table>thead>tr>[aria-sort].b-table-sort-icon-left, &.table.b-table>tfoot>tr>[aria-sort].b-table-sort-icon-left{
+    background-position:8px 14px;
+  }
+  thead th {
+    background-color: $gray-400;
+    font-size: 14px;
+    font-weight: 400;
+    color: $gray-600;
+    padding-bottom: 10px;
+  }
+
+  td {
+    font-size: 14px;
+    padding-bottom:5px;
+    a {
+      font-size: 14px;
+      color: $secondary;
+    }
+    p{
+      font-size:14px;
+    }
+    .status-order {
+      p {
+        position: relative;
+
+        .status {
+          width: 5px;
+          height: 5px;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          margin-left: -10px;
+          margin-top: 5px;
+         
+        }
+      }
+    }
+
+    .status-icons {
+      .btn-group .btn {
+        padding: 0;
+        font-size: 12px;
+      }
+
+      .dropdown-menu {
+        padding: 0px;
+        border-radius: 0px;
+      }
+    }
+  }
+}
+
+.recent-updates {
+  thead th {
+    &:last-child {
+      display: none;
+    }
+  }
+
+  td {
+    &:last-child {
+      padding: 0;
+    }
+  }
+}
+
+/*order-detail tabel*/
+.order-datail-table {
+  thead{
+    th{
+      font-size:12px;
+    }
+  }
+  td {
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+.pagination-sm .page-link {
+  padding: 4px 10px 0px 10px;
+}
+
+@media (max-width: 767px) {
+  .table.b-table.b-table-stacked-md {
+    tbody {
+      tr {
+        margin-bottom: 10px;
+        border: 1px solid $gray-400;
+
+        td {
+          border: none;
+          padding: 0px;
+          display: none;
+
+          &:last-child {
+            display: block;
+          }
+        }
+      }
+
+      tr>[data-label]::before {
+        text-align: left;
+        display: none;
+      }
+
+      tr>[data-label]>div {
+        width: 100%;
+        padding: 0;
+
+        .status-mobile {
+          .completed {
+            background-color: $success;
+            padding: 4px 10px 2px 10px;
+            border-radius: 25px;
+            color: $light;
+            font-size: 12px;
+            margin-bottom: 12px;
+          }
+
+          .portical {
+            background-color: $primary;
+            padding: 4px 10px 2px 10px;
+            border-radius: 25px;
+            color: $light;
+            font-size: 12px;
+            margin-bottom: 12px;
+          }
+          .sls {
+            background-color: $info;
+            padding: 4px 10px 2px 10px;
+            border-radius: 25px;
+            color: $light;
+            font-size: 12px;
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Product Details*/ 
+
+.product-details{
+  thead{
+    tr{
+      th{
+        font-size:14px;
+        font-weight:500;
+        padding:8px 10px;
+        background-color:$gray-100;
+        border-color:$gray-100;
+        .check-all{
+          position: relative;
+          top:-18px;
+          .custom-check{
+            padding-left:15px;
+          }
+        }
+      }
+    }
+  }
+  tbody{
+    tr{
+      td{
+        font-size:14px;
+        padding:8px 10px;
+        p{
+          font-size:14px;
+        }
+        .custom-check{
+          padding-left:15px;
+        }
+        .form-control{
+          height:30px;
+          &.quantity{
+            width:60px;
+          }
+        }
+      }
+    }
+  }
+}

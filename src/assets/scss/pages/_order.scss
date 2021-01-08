@@ -1,0 +1,368 @@
+.order-filter-header,
+.analytics-reports {
+  padding-top: 35px;
+
+  @media (max-width: 575px) {
+    padding-top: 30px;
+  }
+
+  .card {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    border: none;
+
+    /* border-left */
+    &.border-left-light {
+      border: none;
+      border-left: 5px solid $light;
+      padding: 15px 0px;
+
+      @media (max-width: 575px) {
+        padding: 5px 10px;
+      }
+    }
+
+    &.border-left-info {
+      border: none;
+      border-left: 5px solid $info;
+      padding: 15px 0px;
+
+      @media (max-width: 575px) {
+        padding: 5px 10px;
+      }
+    }
+
+    &.border-left-success {
+      border: none;
+      border-left: 5px solid $success;
+      padding: 15px 0px;
+
+      @media (max-width: 575px) {
+        padding: 5px 0px;
+      }
+    }
+
+    &.border-left-primary {
+      border: none;
+      border-left: 5px solid $primary;
+      padding: 15px 0px;
+
+      @media (max-width: 575px) {
+        padding: 5px 0px;
+      }
+    }
+
+    &.border-left-brown {
+      border-left: 5px solid $cardBrown;
+      padding: 15px 0px;
+
+      @media (max-width: 575px) {
+        padding: 5px 0px;
+      }
+    }
+  }
+
+  .order-search-filter {
+    .form-control {
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+}
+
+.order-filter-list {
+  .card-footer {
+    .col-form-label {
+      padding-bottom: 0;
+    }
+
+    .custom-select {
+      height: 32px;
+      width: 75px;
+    }
+  }
+}
+
+/*  order-details list  */
+.order-details-list {
+  .card-body {
+    padding: 25px;
+
+    @media (max-width: 767px) {
+      padding: 0;
+
+      .mobile-border {
+        border: 1px solid $gray-200;
+        padding: 15px;
+      }
+    }
+
+    .portial-badge {
+      .portial {
+        width: 5px;
+        height: 5px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+      }
+
+      span {
+        padding-left: 15px;
+      }
+    }
+
+    .history {
+      .history-data {
+        .history-icons {
+          margin-left: 12px;
+          margin-right: 12px;
+          text-align: center;
+
+          .circle {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: $primary;
+            margin-bottom: 5px;
+          }
+
+          .border-line {
+            margin: auto;
+            height: 70%;
+            background-color: $gray-300;
+            width: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* order comments */
+.order-comments {
+  .card-header {
+    background-color: $gray-100;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .card-body {
+    .list-group {
+      height:calc(100vh - 200px);
+      overflow-y: auto;
+
+      li:last-child{
+        border:none;
+      }
+      /* width */
+      &::-webkit-scrollbar {
+        width: 5px;
+        border-radius: 5px;
+      }
+
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: $gray-100;
+        border-radius: 5px;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: $gray-200;
+      }
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: $gray-300;
+      }
+
+      li {
+        padding: 10px 0px;
+        border: none;
+        border-bottom: 1px solid $gray-300;
+
+        .commennt-info {
+          padding-left: 15px;
+        }
+
+        .circle {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          margin-top: 2px;
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  .card-footer {
+    @media (max-width: 767px) {
+    position: fixed;
+    bottom:0px;
+    padding:10px;
+    left:0;
+    width:100%;
+    }
+    .input-group {
+      .form-control {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;
+        border-right: none;
+        font-size: 16px;
+
+        &:focus {
+          border-color: $gray-300;
+        }
+
+        &::placeholder {
+          font-size: 16px;
+        }
+      }
+
+      .input-group-append {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border: 1px solid $gray-300;
+        border-left: none;
+
+        .btn {
+          text-decoration: none;
+          padding: 0px 10px;
+        }
+      }
+    }
+  }
+}
+
+.order-datail-table {
+  thead {
+    th {
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+
+  tr {
+    td {
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    thead {
+      display: none;
+    }
+
+    tr {
+      td {
+        display: none;
+
+        &:last-child {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+/* requested product list*/
+.requested-select {
+  height: 30px;
+  background-color: transparent;
+  font-size: $font-small;
+}
+
+/* updateDetail modal view*/
+.updateDetail {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .bg-ordermodal {
+    background: rgba(102, 102, 102, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
+
+  .update-card {
+    height: 500px;
+  }
+}
+
+/* add cart Alert */
+.add-cart-alert, .add-cart-alert2 {
+  position: fixed;
+  z-index:999;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 15px;
+  @media (max-width: 767px) {
+    top: 100px;
+  }
+  .close {
+    padding: 8px;
+    font-size: 36px;
+    font-weight: 400;
+  }
+}
+.add-cart-alert2 {
+  top: 250px;
+}
+
+/* bl-assign */
+.bl-assign {
+  .bl-list {
+    @media (max-width: 768px) {
+      padding-top: 20px;
+    }
+  }
+}
+
+/* product-details-orders */
+.product-details-orders {
+  margin-bottom: 20px;
+
+  .list-group-item {
+    border: none;
+    border-bottom: 1px solid $gray-100;
+    padding: 15px 0px;
+
+    .custom-check {
+      position: relative;
+      top: 0px;
+      left: 0;
+    }
+  }
+}
+
+/* update-modal */
+
+.update-modal {
+  .modal-content {
+    @media (max-width: 575px) {
+      height: 98vh !important;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+ /* all base tags style */
+html {
+    font-size: 20px;
+  }
+  
+  body {
+    font-family: $font-style-base;
+    line-height: normal;
+    color: $gray-800;
+    text-align: left;
+    background-color: $gray-200;
+    font-size: 400;
+    overflow-x: hidden;
+    @media (max-width: 767px) {
+      background-color:$light;
+    }
+    &.overflow-hide{
+      overflow: hidden;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-style-heading;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+    color: $black;
+  }
+  p {
+    font-family: $font-style-base;
+    font-weight: 400;
+    color: $gray-800;
+    font-size: $font-base;
+    line-height: normal;
+  }
+  h1 {
+    font-size:$font-xx-large;
+    @media (max-width: 575px) {
+      font-size: $font-medium-large;
+    }
+  }
+  h2 {
+    font-size:$font-extra-large;
+    @media (max-width: 575px) {
+      font-size:$font-large;
+    }
+  }
+  h3 {
+    font-size:$font-large;
+    @media (max-width: 575px) {
+      font-size:$font-medium;
+    }
+  }
+  h4 {
+    font-size: $font-medium;
+    @media (max-width: 575px) {
+      font-size: $font-medium;
+    }
+  }
+  h5 {
+    font-size: $font-base;
+  }
+  h6 {
+    font-size:$font-small;
+ 
+  }
+  

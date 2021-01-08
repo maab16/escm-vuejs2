@@ -1,0 +1,14 @@
+.faq-details{
+        font-size:24px;
+        text-align: center;
+        padding:30px 0px;
+        @media (max-width: 575px) {
+            font-size:18px;
+            padding-bottom:15px;
+            padding-top:0px;
+        }
+    }
+.collapsed > .when-opened,
+:not(.collapsed) > .when-closed {
+    display: none;
+}

@@ -1,0 +1,33 @@
+.home {
+  margin-bottom: 30px;
+  /* topsearch container */
+.jumbotron {
+  padding: 75px 0;
+  margin-bottom:25px;
+  &.top-searchbar {
+    padding: 25px 0;
+    .form-searh-tags {
+      max-width: 100%;
+    }
+  }
+  .advance-option{
+    @media (max-width:575px) {
+      p{
+        font-size:11px;
+      }
+      a{
+        font-size:11px;
+      }
+    }
+  }
+
+  @media (max-width:767px) {
+    padding: 20px 0;
+    margin:0;
+    &.top-searchbar {
+      padding: 20px 0;
+      margin-bottom: 15px;
+    }
+  }
+}
+}

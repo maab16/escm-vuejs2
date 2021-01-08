@@ -1,0 +1,23 @@
+a{
+    font-size:$font-base;
+    color:$secondary;
+    
+}
+a[disabled] {
+    text-decoration:none;
+    color:$gray-200 !important;
+    &:hover {
+        color:$gray-200 !important;
+        cursor: default;
+    }
+}
+.small{
+ font-size:$font-small;
+}
+
+@media ( max-width:350px){
+   p,a{
+        font-size:$font-small;
+    }
+  }
+  

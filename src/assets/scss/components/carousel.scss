@@ -1,0 +1,61 @@
+ .carousel,
+.item {
+ img{
+   width:100%;
+   height:100vh;
+ }
+} 
+/* login carousel */
+.carousel, .carousel-inner, .carousel-fade .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-indicators {
+  left: auto;
+  margin-right: 5%;
+  margin-bottom: 10px;
+
+  li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-top: 0px;
+    border-bottom: 0px;
+    border: 1px solid $white;
+    background-color: transparent;
+  }
+
+  .active {
+    background-color: $white;
+  }
+}
+
+.carousel-caption {
+  text-align: left;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0px 30px 30px 60px;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#ff000000, black);
+  }
+
+  h3 {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  p {
+    color: #fff;
+    width: 90%;
+  }
+}

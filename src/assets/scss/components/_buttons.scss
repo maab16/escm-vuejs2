@@ -1,0 +1,15 @@
+.btn{
+font-size:$font-medium;
+padding:7px 25px 3px;
+border-radius:2px;
+}
+
+.btn-lg{
+    height:40px;
+}
+/*  ----button dissable---- */
+
+.btn.disabled, .btn:disabled{
+    background-color:$gray-400;
+    opacity:1;
+}

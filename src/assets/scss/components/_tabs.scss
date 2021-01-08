@@ -1,0 +1,77 @@
+/*recent order tabs*/
+.card {
+  @media (max-width: 767px) {
+    border: none;
+  }
+
+  .tabs {
+    .tab-pane {
+      padding: 0;
+    }
+    .card-header {
+      padding: 8px 4px 0px 8px;
+
+      @media (max-width: 767px) {
+        border: none;
+      }
+
+      .nav-pills {
+        @media (max-width: 767px) {
+          padding-bottom:10px;
+        }
+        .nav-item {
+          .nav-link {
+            color: $black;
+            border-radius: 0;
+            box-shadow: none;
+
+            @media (max-width: 767px) {
+              padding-left: 0px;
+              padding-right: 10px;
+            }
+
+            &.active {
+              background-color: transparent;
+              border-bottom: 2px solid $primary;
+              font-weight: 500;
+
+              @media (max-width: 767px) {
+                border: none;
+                position: relative;
+
+                &::after {
+                  content: '';
+                  width: 20px;
+                  height: 2px;
+                  border-radius: 5px;
+                  background-color: $primary;
+                  position: absolute;
+                  left: 0;
+                  bottom: 7px;
+                }
+              }
+            }
+
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+
+    .view-all {
+      position: absolute;
+      top: 17px;
+      right: 30px;
+
+      a {
+        font-weight: 500;
+      }
+
+      @media (max-width: 767px) {
+        right: 0px;
+      }
+    }
+  }
+}

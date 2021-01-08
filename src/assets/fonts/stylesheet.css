@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-ThinItalic.eot');
+    src: url('Calibre-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-ThinItalic.woff2') format('woff2'),
+        url('Calibre-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Thin.eot');
+    src: url('Calibre-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Thin.woff2') format('woff2'),
+        url('Calibre-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Bold.eot');
+    src: url('Calibre-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Bold.woff2') format('woff2'),
+        url('Calibre-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Medium.eot');
+    src: url('Calibre-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Medium.woff2') format('woff2'),
+        url('Calibre-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-SemiboldItalic.eot');
+    src: url('Calibre-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-SemiboldItalic.woff2') format('woff2'),
+        url('Calibre-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-LightItalic.eot');
+    src: url('Calibre-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-LightItalic.woff2') format('woff2'),
+        url('Calibre-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Semibold.eot');
+    src: url('Calibre-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Semibold.woff2') format('woff2'),
+        url('Calibre-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Black.eot');
+    src: url('Calibre-Black.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Black.woff2') format('woff2'),
+        url('Calibre-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-BoldItalic.eot');
+    src: url('Calibre-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-BoldItalic.woff2') format('woff2'),
+        url('Calibre-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-RegularItalic.eot');
+    src: url('Calibre-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-RegularItalic.woff2') format('woff2'),
+        url('Calibre-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Regular.eot');
+    src: url('Calibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Regular.woff2') format('woff2'),
+        url('Calibre-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-MediumItalic.eot');
+    src: url('Calibre-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-MediumItalic.woff2') format('woff2'),
+        url('Calibre-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-BlackItalic.eot');
+    src: url('Calibre-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-BlackItalic.woff2') format('woff2'),
+        url('Calibre-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Light.eot');
+    src: url('Calibre-Light.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Light.woff2') format('woff2'),
+        url('Calibre-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

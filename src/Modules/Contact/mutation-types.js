@@ -1,0 +1,4 @@
+// contact types
+export const SET_CONTACTS = 'SET_CONTACTS'
+export const SET_CONTACT = 'SET_CONTACT'
+export const SET_CONFIRMATION_MESSAGE = 'SET_CONFIRMATION_MESSAGE'

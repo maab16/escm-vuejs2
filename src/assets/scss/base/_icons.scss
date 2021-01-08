@@ -1,0 +1,105 @@
+ /* icon-styles */
+.sls-icons {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("~@/assets/images/icons/spritesheet.svg");
+  background-repeat: no-repeat;
+}
+.r180{
+  transform: rotate(180deg);
+}
+ /* icon-size */
+.sls-16 {
+  width: 16px;
+  height: 16px;
+}
+
+.sls-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.sls-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.sls-35 {
+  width: 35px;
+  height: 35px;
+}
+
+.sls-60 {
+  width: 60px;
+  height:60px;
+}
+
+.sls-50 {
+  width: 50px;
+  height: 50px;
+}
+
+ /* icon-names */
+.notifications{
+ background-position: -26px -137px;
+ &:hover{
+     background-position:-26px -185px;
+ }
+}
+.cart{
+    background-position: -58px -137px; 
+    &:hover{
+        background-position:-58px -185px;
+    }
+}
+.menu{
+    background-position: 0px -250px; 
+}
+.search{
+  background-position: -119px -250px;
+}
+.order{
+  background-position: -30px -253px;
+}
+.comment{
+  background-position:-90px -185px;
+}
+.comment-dark{
+  background-position:-90px -160px;
+}
+.timmer{
+  background-position: -16px -393px;
+}
+.loaber{
+  background-position: -18px -449px;
+}
+.confirm{
+  background-position: -7px -502px;
+}
+.order-details{
+  background-position: -115px -119px;
+  &:hover{
+    background-position: -115px -143px;
+  }
+}
+.download{
+  background-position: -183px -113px;
+}
+.print{
+  background-position: -158px -113px;
+}
+.cross{
+  background-position:-215px -114px;
+}
+.back-arrow {
+  background-position: -27px -28px;
+  &:hover{
+    background-position: -27px 3px;
+  }
+}
+.arrow {
+  background-position: 0px -14px;
+}
+.i-icons{
+  background-position: -179px -249px;
+}
